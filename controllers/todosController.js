@@ -1,4 +1,4 @@
-const { add, getAll, getOne, remove, update } = require("./db");
+const { add, getAll, getOne, remove, update } = require("../database/db");
 
 async function getTodos(req, res) {
   try {
